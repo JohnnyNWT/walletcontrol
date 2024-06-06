@@ -1,0 +1,49 @@
+.container-login {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: blue;
+}
+
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 15px;
+  width: 525px;
+  padding: 20px 0px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.input-login {
+  padding: 10px;
+  border-radius: 5px;
+  width: 330px;
+  border: 1px solid black;
+}
+
+.button {
+  width: 120px;
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: #003BE5;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: .3s;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  box-shadow: 0 0 8px #003BE5;
+  transform: scale(1.05);
+}
